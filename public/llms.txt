@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+פלטפורמת למידה לבגרות אנגלית שמאגדת רשימות מילים, דקדוק, תבניות כתיבה ומבחני בגרות משנים קודמות במקום אחד נקי ונוח. הצטרף עכשיו והתחל להצליח.
+
+### רמות
+https://example.com/levels
+למידה מותאמת אישית לרמות 3, 4 ו-5 יחידות לימוד באנגלית. תכנים ממוקדים לכל רמה, כולל הכנה לבגרות באנגלית 5 יחידות עם כלים אינטראקטיביים שיקחו אותך לציון הגבוה ביותר.
+
+### שיטה
+https://example.com/method
+גלה כיצד שיטת הלמידה המובנית של EnglishPass, עם כרטיסיות זיכרון, אודיו וידאו ומבחני בגרות משנים קודמות, הופכת את ההכנה לבגרות אנגלית לחכמה ויעילה יותר מאי פעם.
+
+### צור קשר
+https://example.com/contact
+צור קשר עם צוות EnglishPass וקבל את כל המידע שאתה צריך על הכנה לבגרות באנגלית. אנחנו כאן לעזור לך לבחור את הרמה הנכונה ולהתחיל את הדרך להצלחה בבגרות.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
