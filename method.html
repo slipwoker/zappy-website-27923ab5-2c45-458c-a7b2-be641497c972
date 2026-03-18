@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0553166771" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0553166771';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -836,7 +836,7 @@
 
   <!-- Bottom Scalloped Divider -->
   <div class="method-intro-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 70" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,70 L0,38 Q30,26 60,38 Q90,50 120,38 Q150,26 180,38 Q210,50 240,38 Q270,26 300,38 Q330,50 360,38 Q390,26 420,38 Q450,50 480,38 Q510,26 540,38 Q570,50 600,38 Q630,26 660,38 Q690,50 720,38 Q750,26 780,38 Q810,50 840,38 Q870,26 900,38 Q930,50 960,38 Q990,26 1020,38 Q1050,50 1080,38 Q1110,26 1140,38 Q1170,50 1200,38 L1200,70 Z" fill="#FCFAF6"></path>
     </svg>
   </div>
@@ -853,7 +853,7 @@
     <div class="method-process-track">
       <!-- Connector line -->
       <div class="method-process-connector" aria-hidden="true">
-        <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 900 480" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 900 480" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M820,60 C700,60 650,160 500,160 C350,160 300,60 180,60" stroke="#D6C4A3" stroke-width="2" stroke-dasharray="8 6" fill="none"></path>
           <path d="M180,160 C300,160 350,320 500,320 C650,320 700,160 820,160" stroke="#D6C4A3" stroke-width="2" stroke-dasharray="8 6" fill="none"></path>
         </svg>
@@ -866,7 +866,7 @@
             <span class="method-step-number">01</span>
           </div>
           <div class="method-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="6" y="8" width="36" height="32" rx="3"></rect>
               <line x1="13" y1="16" x2="35" y2="16"></line>
               <line x1="13" y1="22" x2="35" y2="22"></line>
@@ -891,7 +891,7 @@
             <span class="method-step-number">02</span>
           </div>
           <div class="method-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="24" cy="24" r="16"></circle>
               <path d="M16 20 Q20 14 24 20 Q28 26 32 20"></path>
               <path d="M16 28 Q20 22 24 28 Q28 34 32 28"></path>
@@ -912,7 +912,7 @@
             <span class="method-step-number">03</span>
           </div>
           <div class="method-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M10 38 L10 14 Q10 10 14 10 L34 10 Q38 10 38 14 L38 38"></path>
               <line x1="16" y1="18" x2="32" y2="18"></line>
               <line x1="16" y1="24" x2="28" y2="24"></line>
@@ -936,7 +936,7 @@
             <span class="method-step-number">04</span>
           </div>
           <div class="method-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M8 32 Q12 20 24 20 Q36 20 40 32"></path>
               <circle cx="24" cy="16" r="5"></circle>
               <path d="M14 36 L18 30 L24 34 L30 28 L34 36"></path>
@@ -954,7 +954,7 @@
 
   <!-- Bottom paper fold divider -->
   <div class="method-process-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="foldGrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="#4A6BBF" stop-opacity="0.4"></stop>
@@ -1006,7 +1006,7 @@
     </div>
   </div>
   <div class="method-gallery-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,52 Q60,44 120,50 T260,44 Q330,50 400,42 T550,48 Q620,42 700,50 T840,44 Q910,50 980,42 T1100,48 Q1150,44 1200,50 L1200,90 Z" fill="#F4EEE5"></path>
     </svg>
   </div>
@@ -1064,7 +1064,7 @@
   </div>
 
   <div class="mss-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,60 Q180,20 360,45 Q540,70 720,30 Q900,0 1080,35 Q1260,65 1440,50 L1440,90 Z" fill="#1A237E"></path>
     </svg>
   </div>
@@ -1082,7 +1082,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/business-logo.webp" alt="EnglishPass" class="logo"><p class="footer-tagline">פלטפורמת הלמידה המתקדמת ללימוד אנגלית – בדרך שלך, בקצב שלך.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/levels">רמות</a></li><li><a href="/method">שיטה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">יצירת קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:[business_email]">[business_email]</a></li><li><i class="fas fa-phone"></i><a href="tel:[business_phone]">[business_phone]</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>[business_address]</span></a></li></ul></div></div><div class="footer-bottom"><div class="footer-copyright">© 2026 EnglishPass. כל הזכויות שמורות.</div><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/business-logo.webp" alt="EnglishPass" class="logo"><p class="footer-tagline">פלטפורמת הלמידה המתקדמת ללימוד אנגלית – בדרך שלך, בקצב שלך.</p><div class="footer-social"><a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/levels">רמות</a></li><li><a href="/method">שיטה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">יצירת קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:yhudarinf@gmail.com">yhudarinf@gmail.com</a></li><li><i class="fas fa-phone"></i><a href="tel:0553166771">0553166771</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>נוה שאנן, אריאל, ישראל</span></a></li></ul></div></div><div class="footer-bottom"><div class="footer-copyright">© 2026 EnglishPass. כל הזכויות שמורות.</div><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
