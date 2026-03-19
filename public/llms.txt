@@ -1,6 +1,4 @@
-# EnglishPass — Generative Engine Optimization Map
-
-> EnglishPass is a modern digital learning platform designed to help Israeli high school students ace their English Bagrut (matriculation) exam at 3, 4, and 5 unit levels. The platform consolidates vocabulary lists (Band 2 & 3), grammar explanations, module-specific guidance, writing templates, and past exam practice in one clean, ad-free environment. The brand identity is academic yet approachable — serious enough to inspire confidence, but student-friendly with a high-end educational aesthetic. The platform emphasizes structured, level-based learning with interactive tools like flashcards and embedded audio/video for listening comprehension.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About EnglishPass
-EnglishPass is a modern digital learning platform designed to help Israeli high school students ace their English Bagrut (matriculation) exam at 3, 4, and 5 unit levels. The platform consolidates vocabulary lists (Band 2 & 3), grammar explanations, module-specific guidance, writing templates, and past exam practice in one clean, ad-free environment. The brand identity is academic yet approachable — serious enough to inspire confidence, but student-friendly with a high-end educational aesthetic. The platform emphasizes structured, level-based learning with interactive tools like flashcards and embedded audio/video for listening comprehension.
-
-## Target Audience
-תלמידי תיכון הנערכים לבחינת הבגרות באנגלית ברמות 3, 4 ו-5 יחידות לימוד
-
-## Industry
-חינוך וטכנולוגיה לימודית (EdTech)
-
+## About Business
 ---
 
 # Additional Resources
